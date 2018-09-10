@@ -15,6 +15,7 @@
 		423B10DA21412951003659E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423B10D921412951003659E7 /* main.m */; };
 		423B10E421412951003659E7 /* blockdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423B10E321412951003659E7 /* blockdemoTests.m */; };
 		423B10EF21412951003659E7 /* blockdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423B10EE21412951003659E7 /* blockdemoUITests.m */; };
+		423B10FE21412FDC003659E7 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 423B10FD21412FDC003659E7 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		423B10EA21412951003659E7 /* blockdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blockdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		423B10EE21412951003659E7 /* blockdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockdemoUITests.m; sourceTree = "<group>"; };
 		423B10F021412952003659E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423B10FC21412FDC003659E7 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		423B10FD21412FDC003659E7 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				423B10D521412951003659E7 /* LaunchScreen.storyboard */,
 				423B10D821412951003659E7 /* Info.plist */,
 				423B10D921412951003659E7 /* main.m */,
+				423B10FC21412FDC003659E7 /* Test.h */,
+				423B10FD21412FDC003659E7 /* Test.m */,
 			);
 			path = blockdemo;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				423B10CF21412950003659E7 /* ViewController.m in Sources */,
+				423B10FE21412FDC003659E7 /* Test.m in Sources */,
 				423B10DA21412951003659E7 /* main.m in Sources */,
 				423B10CC21412950003659E7 /* AppDelegate.m in Sources */,
 			);
